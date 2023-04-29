@@ -1,0 +1,9 @@
+import '/resources/js/bootstrap.js';
+
+import Alpine from '/node_modules/.vite/deps/alpinejs.js?v=ce6a0e6f';
+import focus from '/node_modules/.vite/deps/@alpinejs_focus.js?v=ce6a0e6f';
+window.Alpine = Alpine;
+
+Alpine.plugin(focus);
+
+Alpine.start();
